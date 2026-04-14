@@ -15,5 +15,6 @@ void main() {
 		res += num;
 	} while (num != 0);
 
+	cout << res;
 }
 
