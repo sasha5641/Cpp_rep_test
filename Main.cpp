@@ -6,5 +6,8 @@ void main() {
 
 	cout << "Enter num ";
 
+	cin >> num;
+	res += num;
+
 }
 
