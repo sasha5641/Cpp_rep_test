@@ -7,10 +7,11 @@ void main() {
 	int num;
 	int res = 0;
 
-	cout << "Enter num ";
-
-	cin >> num;
-	res += num;
+	do {
+		cout << "Enter num ";
+		cin >> num;
+		res += num;
+	} while (num != 0);
 
 }
 
